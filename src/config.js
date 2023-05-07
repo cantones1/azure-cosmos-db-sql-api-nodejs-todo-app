@@ -1,9 +1,9 @@
 const config = {}
 
-config.host = process.env.HOST || 'https://localhost:8081/'
+config.host = process.env.HOST || 'todoex-server.mongo.cosmos.azure.com'
 config.authKey =
   process.env.AUTH_KEY ||
-  'C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw=='
+  'wnEabJUu8imNb6ufl8tKkTvPJlS4GL1MNgqBVGB3GI9deYFv8fDPxPt8ko1zW5w854WJoBtloiukACDb3LA6jg=='
 config.databaseId = 'ToDoList'
 config.containerId = 'Items'
 
